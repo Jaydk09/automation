@@ -11,7 +11,7 @@ There are two directories under SRC - main and test.
 
 main: [contains( Test base, Test utils, chromedriver and properties files)]
 
-Two properties files created: 'config' for framework config data and 'userData' for user input data
+Two properties files created: 'config' for framework config data and 'userData' for user input data.
 Test base class loads properties files and also to instantiate browser driver. (additional resusable methods to be created later)
 
 test: [contains( feature files, page object classes,runner and step defs)]
@@ -26,8 +26,8 @@ TEST EXECUTION:
 
 Executing individual scenarios: Open Scenario file and rightclick and select run
 
-Executing Multiple: Open RunCukesTest under runners, rightclick and run. (additional configuration can be used such as tags)
-Open RunCukesTest class -rightclick on either RunnerTest or the Feature file and click run.
+Executing Multiple: Open RunCukesTest under runners, rightclick and run. (additional configuration can be implemented by using tags)
+
 
 YET TO IMPLEMENT:
 
